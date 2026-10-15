@@ -3,7 +3,7 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `015c507` (Momentum-App, WP3 Stage 1: bug fixes, no scoring change) with `--base=/Momentum-preview/`, on 2026-10-15.
+- Built from commit `fbd4942` (Momentum-App, WP3 Stage 2: the workout flow — free workouts as drafts, removal with undo, the running workout, kg | lb; no scoring change) with `--base=/Momentum-preview/`, on 2026-10-15.
 - `sw.js` is deliberately **not** published. Its precache list now follows
   the build's base, so it would be right here — but without it every load is
   fresh, which is what a visual review wants. It also means the PWA/offline
