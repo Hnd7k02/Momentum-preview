@@ -1,10 +1,9 @@
 # Momentum — temporary preview
 
 Built output only, for real-device visual QA of `Momentum-App` branch
-`claude/momentum-pass-2-geometry-r2qzkd` before it is merged. No source, no
-history.
+`claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `75cf2a5` (Momentum-App, muscle-map release candidate; app source `5e554aa`) with `--base=/Momentum-preview/`, on 2026-09-11.
+- Built from commit `015c507` (Momentum-App, WP3 Stage 1: bug fixes, no scoring change) with `--base=/Momentum-preview/`, on 2026-10-15.
 - `sw.js` is deliberately **not** published. Its precache list now follows
   the build's base, so it would be right here — but without it every load is
   fresh, which is what a visual review wants. It also means the PWA/offline
