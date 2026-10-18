@@ -3,7 +3,7 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `188ff3d` (Momentum-App, WP3 Stage 3b: one day back — Heute | Gestern, today and yesterday for every write, a week judged when it is over, a pending abstinence charge, promotions on settled days) with `--base=/Momentum-preview/`, on 2026-10-16.
+- Built from commit `52fe355` (Momentum-App, WP3 Stage 4: Mind and Gym — Food off as an era from the first load, its data kept; one name, Mind; the terminal Mind | Gym; Gestern's wording for the standard questions) with `--base=/Momentum-preview/`, on 2026-10-18.
 - `sw.js` is deliberately **not** published. Its precache list now follows
   the build's base, so it would be right here — but without it every load is
   fresh, which is what a visual review wants. It also means the PWA/offline
