@@ -14,17 +14,18 @@
     <meta name="theme-color" content="#f4f4f8" />
     <meta name="description" content="Sieh, wohin dein Leben steuert." />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <!-- For the acceptance of WP3 Stage 6b this is `default`, as in
-         `Momentum-App` (D149): the status bar is then painted from
+    <!-- `default`, as in `Momentum-App` and as decided at STOP 6b for the
+         rest of WP3 (D149, D163): the status bar is painted from
          `theme-color`, which the app sets per world — light in Mind, dark in
-         Gym — and that is one of the things this build is here to show on a
-         real iPhone.
+         Gym.
 
-         Before this publish the preview carried `black-translucent`, the
-         only style under which the web view reaches the physical top edge
-         and `env(safe-area-inset-top)` becomes a real value. If `default`
-         is not accepted on the device, this line goes back to
-         `black-translucent`. -->
+         Up to and including the Stage 4 publish this preview carried
+         `black-translucent`, the only style under which the web view reaches
+         the physical top edge and `env(safe-area-inset-top)` becomes a real
+         value. An edge-to-edge status bar is a backlog item of its own: with
+         `black-translucent` the bar's own text is always white for a Home
+         Screen app, so the light Mind world would need a dark gradient at
+         the top. -->
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Momentum" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -34,8 +35,8 @@
     <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <title>Momentum</title>
-    <script type="module" crossorigin src="/Momentum-preview/assets/index-CuCdUdyJ.js"></script>
-    <link rel="stylesheet" crossorigin href="/Momentum-preview/assets/index-BxBtyXvY.css">
+    <script type="module" crossorigin src="/Momentum-preview/assets/index-B3E1j15m.js"></script>
+    <link rel="stylesheet" crossorigin href="/Momentum-preview/assets/index-BG8butkJ.css">
   </head>
   <body>
     <div id="root"></div>
