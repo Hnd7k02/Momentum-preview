@@ -3,7 +3,14 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `a956ecb` (Momentum-App, WP3 Stage 6b as accepted at STOP 6b, with what followed from the acceptance: the exercise detail's bars start at zero, an empty range in Muskelgruppen says why it is empty and when the last session was, a fall is printed with a minus sign and a percent sign never leaves its number, the seven target bubbles stand in one row) with `--base=/Momentum-preview/`, on 2026-11-11.
+- Built from commit `67db6d2` (Momentum-App, WP3 — the colour rules of the muscle status, contract §7: a change is held from −2 % to +2 % and coloured from ±3 %, a group states a trend only with three exercise days, "Gehalten" is neutral and white on the body, Muskelgruppen reads 30 or 90 days, "Leistungstrend" and "Zu wenig Vergleichsdaten", the legend behind ⓘ) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-11.
+- **This preview keeps its data in a database of its own**, `momentum-preview`.
+  The live app is served from the same origin
+  (`hnd7k02.github.io/Momentum-App/`), and pages of one origin share their
+  databases in a browser; up to the Stage 6b publish the preview opened the
+  live app's `momentum`. From this build on it cannot touch it. The preview
+  therefore **starts empty**: import a backup in Einstellungen to see your
+  own data here.
 - `sw.js` is deliberately **not** published. Its precache list now follows
   the build's base, so it would be right here — but without it every load is
   fresh, which is what a visual review wants. It also means the PWA/offline
