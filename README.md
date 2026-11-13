@@ -3,7 +3,7 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `6eb5f3a` (Momentum-App, WP3 block 7A — the body is a new model: the athletic body the owner chose at the gate, built by script from MakeHuman's base mesh (CC0 1.0), with a level cut at the neck and straight cuts at wrists and ankles, head, hands and feet in a neutral tone of their own, and a light without tone mapping, so green and red on the body are the colours of the legend; the still on the Gym card and the credits in Einstellungen follow it. It also carries the colour rules of the muscle status of the build before) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-12.
+- Built from commit `534515d` (Momentum-App, WP3 block 7A, second version — the body is a new model: the athletic body the owner chose at the gate, built by script from MakeHuman's base mesh (CC0 1.0), with a level cut at the neck and straight cuts at wrists and ankles, head, hands and feet in a neutral tone of their own, a light without tone mapping, and since the second sheet of the gate a surface without folds and shorter, stronger arms held closer; the still on the Gym card and the credits in Einstellungen follow it. It also carries the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-13.
 - **This preview keeps its data in a database of its own**, `momentum-preview`.
   The live app is served from the same origin
   (`hnd7k02.github.io/Momentum-App/`), and pages of one origin share their
@@ -15,7 +15,7 @@ Built output only, for real-device visual QA of `Momentum-App` branch
   the build's base, so it would be right here — but without it every load is
   fresh, which is what a visual review wants. It also means the PWA/offline
   path cannot be tried on this preview; that stays for the production site.
-- `models/momentum-body.glb` (688 KB, 475 KB as transferred) and the lazy `assets/BodyViewer-*.js`
+- `models/momentum-body.glb` (687 KB, 479 KB as transferred) and the lazy `assets/BodyViewer-*.js`
   chunk are published: the 3D body in Bereiche → Gym fetches both on first
   entry.
 - The sourcemap is omitted for the same reason — it is not needed to look at
