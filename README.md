@@ -3,11 +3,17 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `b46c44b` (Momentum-App, WP3 Stage 5b as the owner accepted it at STOP 5b, with his answers built: a Gym exercise-day is worth its best working set by a strength score, load × (1 + reps ÷ 30), from the first load of this build on, as an era — every day before it replays as it did. A range compares the median of an exercise's last days with the median of its first, which he confirmed. A set can be marked as a warm-up by tapping its number, and a hint under the sets says so until a set has been marked once. The exercise detail draws a line where it drew bars: each day as its change since the first day shown. It also carries block 7A's body with the owner's addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-15.
-- **For the check of Stage 5b** the owner imports
-  `docs/wp3/stage5b/momentum-pruefdaten-5b.json` from `Momentum-App` — five
-  invented weeks of training, made by the live build itself — here and into
-  the live app, and compares the two.
+- Built from commit `50c5ff7` (Momentum-App, WP3 block "Kurve", waiting for the owner's acceptance at its STOP: from the Stage 5b era on the performance curve reads Gym's changes at a value of its own — every three points of improvement multiply the odds by four, where it was ten — so that whoever adds a rep a week and then weight does not stand lower after the update than before; the value travels in the snapshot of the day beside the metric, and every day before the update, and every day of Laufen, replays as it did. A tint on the body is full from 8 % where it was 12 %. It also carries Stage 5b as the owner accepted it — the best working set by a strength score, the median, the warm-up mark, the line in the exercise detail — block 7A's body with his addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-15.
+- **For the check of block "Kurve"** the owner imports the file of his check
+  day from `docs/wp3/kurve/` in `Momentum-App` — five invented weeks of
+  training, made by the live build itself, the last session on that day:
+  `momentum-pruefdaten-kurve.json` on 15 November,
+  `momentum-pruefdaten-kurve-2026-11-16.json` on the 16th,
+  `momentum-pruefdaten-kurve-2026-11-17.json` on the 17th — here and into
+  the live app, and compares the two. **Import it here even if this preview
+  already holds the Stage 5b file**: a database a Stage 5b preview has
+  loaded carries the metric without the new curve for the days since, and
+  only a fresh import starts both on the same day.
 - **This preview keeps its data in a database of its own**, `momentum-preview`.
   The live app is served from the same origin
   (`hnd7k02.github.io/Momentum-App/`), and pages of one origin share their
