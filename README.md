@@ -3,7 +3,11 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `9eccdae` (Momentum-App, WP3 block 7A with the owner's addendum to its acceptance — the body is the model he accepted: the athletic body built by script from MakeHuman's base mesh (CC0 1.0), with head, hands and feet in a neutral tone of their own and a light without tone mapping. Since the addendum its borders are lines the build cuts: the chest's lower edge is level, lowest under the nipple; the knee, front and back, the collarbone and the deltoid's edge are straight; and the weakest tint is 0.3 for 0.5, so a change of 3 % reads lighter beside one of 9 %. No vertex of the body moved. It also carries the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-15.
+- Built from commit `34a396d` (Momentum-App, WP3 Stage 5b — a Gym exercise-day is worth its best working set by a strength score, load × (1 + reps ÷ 30), from the first load of this build on, as an era: every day before it replays as it did. A range compares the median of an exercise's last days with the median of its first, which the owner confirms or declines at STOP 5b. A set can be marked as a warm-up by tapping its number; it counts for the week and never for the value. The exercise detail draws bars, as before. It also carries block 7A's body with the owner's addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-15.
+- **For the check of Stage 5b** the owner imports
+  `docs/wp3/stage5b/momentum-pruefdaten-5b.json` from `Momentum-App` — five
+  invented weeks of training, made by the live build itself — here and into
+  the live app, and compares the two.
 - **This preview keeps its data in a database of its own**, `momentum-preview`.
   The live app is served from the same origin
   (`hnd7k02.github.io/Momentum-App/`), and pages of one origin share their
