@@ -3,17 +3,14 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `d43414b` (Momentum-App, WP3 block "Kurve" as the owner accepted it at STOP Kurve on 2026-11-15, with his four answers built: the performance curve reads Gym's changes at a value of its own from the Stage 5b era on — every three points of improvement multiply the odds by four, where it was ten — which he confirmed; a tint on the body is full from 8 %; the lines of the muscle rows and of the exercise detail are drawn on a scale of 8 % where it was 12 %; and "Gehalten" is one-sided — a rise counts from +2 %, a fall from −3 % as before — with the legend saying why. Every day before the update, and every day of Laufen, replays as it did. It also carries Stage 5b as the owner accepted it — the best working set by a strength score, the median, the warm-up mark, the line in the exercise detail — block 7A's body with his addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-15.
-- **For the check of block "Kurve"** the owner imports the file of his check
-  day from `docs/wp3/kurve/` in `Momentum-App` — five invented weeks of
-  training, made by the live build itself, the last session on that day:
-  `momentum-pruefdaten-kurve.json` on 15 November,
-  `momentum-pruefdaten-kurve-2026-11-16.json` on the 16th,
-  `momentum-pruefdaten-kurve-2026-11-17.json` on the 17th — here and into
-  the live app, and compares the two. **Import it here even if this preview
-  already holds the Stage 5b file**: a database a Stage 5b preview has
-  loaded carries the metric without the new curve for the days since, and
-  only a fresh import starts both on the same day.
+- Built from commit `c24c8d4` (Momentum-App, WP3 block 7B at its STOP on 2026-11-16, waiting for the owner's check: Muskelgruppen is the body's stage — no card, 55 % of the visible height, a strip of three figures above it; a tap never turns the body and reaches a group from twelve pixels beside it; the motion counts time, not frames; two fingers zoom to 1.8, a double tap and a button reset; a sheet stands over a still body; a lost graphics context ends with the body or the flat figure; Heute's Gym label leads straight to the body and back leads to Heute. It carries a measuring display — off until switched on under Bereiche → Einstellungen → "Messanzeige beim Körper" — that shows how fast the body loads and how smoothly it turns and copies the values as text. It also carries block "Kurve" and Stage 5b as the owner accepted them, block 7A's body with his addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-16.
+- **For the check of block 7B** the owner imports the file of his check day
+  from `docs/wp3/stage7b/` in `Momentum-App` — the invented diary of the
+  block "Kurve", made anew by the live build itself, the last session on
+  that day: `momentum-pruefdaten-7b-2026-11-16.json` on 16 November,
+  `…-2026-11-17.json` on the 17th, `…-2026-11-18.json` on the 18th. In this
+  diary every group is rated and improved; the empty screen is this
+  preview before any import. There is no backup with real data.
 - **This preview keeps its data in a database of its own**, `momentum-preview`.
   The live app is served from the same origin
   (`hnd7k02.github.io/Momentum-App/`), and pages of one origin share their
@@ -25,9 +22,11 @@ Built output only, for real-device visual QA of `Momentum-App` branch
   the build's base, so it would be right here — but without it every load is
   fresh, which is what a visual review wants. It also means the PWA/offline
   path cannot be tried on this preview; that stays for the production site.
-- `models/momentum-body.glb` (690 KB, 480 KB as transferred) and the lazy `assets/BodyViewer-*.js`
-  chunk are published: the 3D body in Bereiche → Gym fetches both on first
-  entry.
+- `models/momentum-body.glb` (690 KB, 480 KB as transferred), the lazy
+  `assets/BodyViewer-*.js` chunk and the body's still
+  `assets/body-stage-*.webp` are published: Muskelgruppen shows the still
+  at once and fetches the other two when it is opened — from Heute's Gym
+  label or from the Gym hub. Heute itself fetches neither.
 - The sourcemap is omitted for the same reason — it is not needed to look at
   the app.
 
