@@ -3,20 +3,15 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `4a61baf` (Momentum-App, WP3 block 7C at its STOP on 2026-11-16, waiting for the owner's check: a tap on a muscle of the body or on a group's row opens the group's sheet — two thirds of the screen, dragged up to 92 % and down to close, closed by the cross, by a tap on the body above it, by Escape and by Back; the body above the sheet shows the group and stands still; in the sheet stand the row's own figure and state, the group's line, its exercises each with one change, and the work volume per week, "nicht gewertet"; an exercise's detail lies on top and Back walks step by step; the card "Muskelgruppen" on the Gym hub holds its place while it loads, and all lines of the ten rows stand in one column. It also carries block 7B — the body's stage, and the measuring display under Bereiche → Einstellungen → "Messanzeige beim Körper" — block "Kurve" and Stage 5b as the owner accepted them, block 7A's body with his addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-16.
-- **For the check of block 7C** the owner imports the file of his check day
+- Built from commit `8460d46` (Momentum-App, WP3 block 7C after its STOP on 2026-11-16, with the owner's answers built in: every line begins on the baseline of its first day — in a group's row, in its sheet and in an exercise's detail — and **an exercise's line is its change day by day**, each point the change in the range up to that day, so it ends on the figure at the head, and an end point in a rise's colour never lies under the zero line; one recorded day is a sentence, not a chart. Otherwise block 7C as he accepted it: a tap on a muscle or on a group's row opens the group's sheet — two thirds of the screen, dragged up to 92 % and down to close, closed by the cross, by a tap on the body above it, by Escape and by Back — with the row's own figure and state, the group's line, its exercises each with one change and the work volume per week. It also carries block 7B — the body's stage, and the measuring display under Bereiche → Einstellungen → "Messanzeige beim Körper" — block "Kurve" and Stage 5b as the owner accepted them, block 7A's body with his addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-16.
+- **For a check of block 7C** the owner imports the file of his check day
   from `docs/wp3/stage7c/` in `Momentum-App`:
-  `momentum-pruefdaten-7c-2026-11-16.json` on 16 November,
-  `…-2026-11-17.json` on the 17th, `…-2026-11-18.json` on the 18th. It is
-  the device the block's checks and pictures run on, with every state a
-  group can be in — a change, "uneinheitlich", too little to compare, not
-  trained, a single observation — exported by the build through its own
-  interface. Its rows were written by a script, not typed: Muskelgruppen,
-  the sheets, the exercise details and the Gym hub's card are what it is
-  for; Heute, Verlauf and Rang show a device nobody lived on. The diary
-  files of block 7B (`docs/wp3/stage7b/`) are still right on the same
-  days, for a diary in which every group is rated and improved. There is
-  no backup with real data.
+  `momentum-pruefdaten-7c-2026-11-17.json` on 17 November,
+  `…-2026-11-18.json` on the 18th. It is the device the block's checks and
+  pictures run on, with every state a group can be in, exported by the
+  build through its own interface; its rows were written by a script, not
+  typed. The diary files of block 7B (`docs/wp3/stage7b/`) are still right
+  on the same days. There is no backup with real data.
 - **This preview keeps its data in a database of its own**, `momentum-preview`.
   The live app is served from the same origin
   (`hnd7k02.github.io/Momentum-App/`), and pages of one origin share their
