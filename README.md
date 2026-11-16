@@ -3,15 +3,16 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `8460d46` (Momentum-App, WP3 block 7C after its STOP on 2026-11-16, with the owner's answers built in: every line begins on the baseline of its first day — in a group's row, in its sheet and in an exercise's detail — and **an exercise's line is its change day by day**, each point the change in the range up to that day, so it ends on the figure at the head, and an end point in a rise's colour never lies under the zero line; one recorded day is a sentence, not a chart. Otherwise block 7C as he accepted it: a tap on a muscle or on a group's row opens the group's sheet — two thirds of the screen, dragged up to 92 % and down to close, closed by the cross, by a tap on the body above it, by Escape and by Back — with the row's own figure and state, the group's line, its exercises each with one change and the work volume per week. It also carries block 7B — the body's stage, and the measuring display under Bereiche → Einstellungen → "Messanzeige beim Körper" — block "Kurve" and Stage 5b as the owner accepted them, block 7A's body with his addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-16.
-- **For a check of block 7C** the owner imports the file of his check day
-  from `docs/wp3/stage7c/` in `Momentum-App`:
-  `momentum-pruefdaten-7c-2026-11-17.json` on 17 November,
-  `…-2026-11-18.json` on the 18th. It is the device the block's checks and
-  pictures run on, with every state a group can be in, exported by the
-  build through its own interface; its rows were written by a script, not
-  typed. The diary files of block 7B (`docs/wp3/stage7b/`) are still right
-  on the same days. There is no backup with real data.
+- Built from commit `000d7a7` (Momentum-App, WP3 block 7D at its STOP on 2026-11-16, waiting for the owner's check: the exercise catalogue holds 133 exercises where it held 49 — at least ten for every muscle group by its primary role, every one with its equipment and its movement — and the picker searches all of it, in a workout and in the plan editor: by name, detail, muscle group with everyday words, movement and equipment, whatever the case or the spelling of an umlaut, by the beginning of a word, every further word narrowing. Without a query the list stands under one heading per group; a query that finds nothing says so and offers "Eigene Übung" with the word as its name. It also carries block 7C with the owner's answers at its STOP — the muscle sheet, every line from its baseline, an exercise's line as its change day by day — block 7B's stage and the measuring display under Bereiche → Einstellungen → "Messanzeige beim Körper", block "Kurve" and Stage 5b as the owner accepted them, block 7A's body with his addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-16.
+- **For the check of block 7D** the owner imports the file of his check day
+  from `docs/wp3/stage7d/` in `Momentum-App`:
+  `momentum-pruefdaten-7d-2026-11-17.json` on 17 November,
+  `…-2026-11-18.json` on the 18th. It was made by the live app's build with
+  its own catalogue — the training diary of the earlier STOPs, a plan
+  "Oberkörper" and an exercise of the user's own, "Zercher Squat" — so it is
+  an existing device: after the import the preview offers 134 exercises and
+  shows the same Gym rating as the build before the block (821 on the 17th,
+  807 on the 18th). There is no backup with real data.
 - **This preview keeps its data in a database of its own**, `momentum-preview`.
   The live app is served from the same origin
   (`hnd7k02.github.io/Momentum-App/`), and pages of one origin share their
