@@ -3,16 +3,8 @@
 Built output only, for real-device visual QA of `Momentum-App` branch
 `claude/momentum-wp3` before it is merged. No source, no history.
 
-- Built from commit `e7fc44e` (Momentum-App, WP3 block 7D, accepted by the owner on 2026-11-17: the exercise catalogue holds 134 exercises where it held 49 (the last, the Bayesian cable curl, added at the owner's request after the STOP; Preacher-Curls is also found as «Bizepsmaschine» and «Scott-Curls») — at least ten for every muscle group by its primary role, every one with its equipment and its movement — and the picker searches all of it, in a workout and in the plan editor: by name, detail, muscle group with everyday words, movement and equipment, whatever the case or the spelling of an umlaut, by the beginning of a word, every further word narrowing. Without a query the list stands under one heading per group; a query that finds nothing says so and offers "Eigene Übung" with the word as its name. It also carries block 7C with the owner's answers at its STOP — the muscle sheet, every line from its baseline, an exercise's line as its change day by day — block 7B's stage and the measuring display under Bereiche → Einstellungen → "Messanzeige beim Körper", block "Kurve" and Stage 5b as the owner accepted them, block 7A's body with his addendum, and the colour rules of the muscle status) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`, on 2026-11-16.
-- **For the check of block 7D** the owner imports the file of his check day
-  from `docs/wp3/stage7d/` in `Momentum-App`:
-  `momentum-pruefdaten-7d-2026-11-17.json` on 17 November,
-  `…-2026-11-18.json` on the 18th. It was made by the live app's build with
-  its own catalogue — the training diary of the earlier STOPs, a plan
-  "Oberkörper" and an exercise of the user's own, "Zercher Squat" — so it is
-  an existing device: after the import the preview offers 135 exercises and
-  shows the same Gym rating as the build before the block (821 on the 17th,
-  807 on the 18th). There is no backup with real data.
+- Built from commit `6806630` (Momentum-App, branch `claude/hopeful-carson-4utktp`, WP3 block 7E at STOP 7E-b, on 2026-11-17: the onboarding in direction C with the owner's answers at STOP 7E-a2 — the flat ground, the first slide's picture with its example values, the Gym card with the body's still, the Rookie stage, the areas as two tiles, one card per question category, the weekly targets as two rows of seven, the summary as tiles — in the app's system font; Mind opens with three starter questions, one per category, and «Weiter» waits with «Wähl mindestens eine Frage oder nimm Mind ab.» while none is chosen. It is built on block 7D as the owner accepted it, `claude/momentum-wp3` at `3e153fa` merged in, and carries everything of that build) with `--base=/Momentum-preview/` and `VITE_MOMENTUM_DB=momentum-preview`.
+- **For the check of block 7E** the owner sees the onboarding twice: **on a new device** — this preview in a private tab, or with its data cleared — where it is the first thing the app shows; and **as a rehearsal on a device with data**: Bereiche → Einstellungen → «Einführung ansehen», a row only this preview has. The rehearsal walks the flow as a new device does and writes nothing; «Starten» at its end, Back at any step, or a reload return to the app. For data to rehearse on, import the file of the check day from `docs/wp3/stage7d/` in `Momentum-App` (`momentum-pruefdaten-7d-2026-11-17.json` on 17 November, `…-2026-11-18.json` on the 18th). There is no backup with real data.
 - **This preview keeps its data in a database of its own**, `momentum-preview`.
   The live app is served from the same origin
   (`hnd7k02.github.io/Momentum-App/`), and pages of one origin share their
